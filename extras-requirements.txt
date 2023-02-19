@@ -28,3 +28,4 @@ google-cloud-bigquery[pandas]~=3.2
 kafka-python~=2.0
 redis~=4.3
 graphviz~=0.20.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
