@@ -2,3 +2,4 @@ gnureadline~=8.0
 transformers~=4.11.3
 xgboost~=1.1
 tensorboard~=2.5
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
