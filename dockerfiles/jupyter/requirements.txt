@@ -1,6 +1,6 @@
 matplotlib~=3.5
 scipy~=1.0
-scikit-learn~=1.0
+scikit-learn~=1.5.0
 seaborn~=0.11.0
 scikit-plot~=0.3.7
 xgboost~=1.1
@@ -11,3 +11,5 @@ nbclassic>=0.2.8
 # added to tackle security vulnerabilities
 notebook~=6.4
 Pillow~=9.0
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
