@@ -3,3 +3,7 @@ dask-kubernetes~=0.11.0
 apscheduler~=3.6
 sqlite3-to-mysql~=1.4
 objgraph~=3.5
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
