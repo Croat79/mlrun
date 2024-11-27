@@ -11,3 +11,4 @@ nbclassic>=0.2.8
 # added to tackle security vulnerabilities
 notebook~=6.4
 Pillow~=9.0
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
