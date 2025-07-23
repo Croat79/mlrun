@@ -22,3 +22,9 @@ graphviz~=0.20.0
 opencv-python-headless~=4.0
 pyhive @ git+https://github.com/v3io/PyHive.git@v0.6.999
 v3io-generator @ git+https://github.com/v3io/data-science.git#subdirectory=generator
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.47.2 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
